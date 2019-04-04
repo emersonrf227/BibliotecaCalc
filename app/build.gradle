@@ -4,6 +4,9 @@ apply plugin: 'maven'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.emersonrf227'
 
 android {
     compileSdkVersion 27
@@ -23,6 +26,7 @@ android {
     }
 }
 
+/*
 // Move o upldoad da biblioteca para o caminho a baixo
 uploadArchives {
     repositories {
@@ -37,6 +41,7 @@ uploadArchives {
     }
 }
 task install(dependsOn: uploadArchives)
+*/
 
 
 
